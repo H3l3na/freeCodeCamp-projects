@@ -1,2 +1,2 @@
 # freeCodeCamp-projects
-Projects from freeCodeCamp.org
+Personal webpage portfolio from the front-end section of freeCodeCamp.org
