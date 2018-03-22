@@ -1,0 +1,78 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Alma Djedović</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.min.js"></script>-->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merienda">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Mina">
+		<link rel="stylesheet" href="css/style.css" type="text/css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<!--<script src="carousel.js">-->
+	</head>
+	<div > <!-- removed 'container-fluid' class-->
+		<ul class="nav nav-pills">
+			<li class="pull-right">
+				<a href="#aboutme">About</a>
+			</li>
+			<li class="pull-right">
+				<a href="#portfolio">Portfolio</a>
+			</li>
+			<li class="pull-right">
+				<a href="#contact">Contact</a>
+			</li>
+		</ul>
+		<div class="pageOne">
+		</br></br></br></br>
+			<div class="block">
+			<h1>Alma Djedovic</h1></br>
+			<h3>Vision meets code.</h3>
+			</div>
+			<div class="btnList text-center">
+				<a class="btn btn-default fa fa-twitter fa-lg" href="#"> Twitter</a>
+				<a class="btn btn-default fa fa-github fa-lg" href="#"> Github</a>
+				<a class="btn btn-default fa fa-linkedin fa-lg" href="#"> LinkedIn</a>
+				<a class="btn btn-default fa fa-facebook fa-lg" href="#"> Facebook</a>
+			</div>
+		</div>
+		<div class="pageTwo" id="aboutme">
+		<div class="row">
+		<div class="col-md-4 text-center" >
+		</br></br></br>
+			<h1>Alma Djedovic</h1><hr></br></br>
+			
+			<p>I'm a second year student at the Faculty of Information Technology in Mostar. I'm an aspiring full-stack developer, avid learner and music listener. I'm currently experienced in C, C++, HTML/CSS, JavaScript and PHP.</p>
+			
+		</div>
+		<div class="col-md-4" id="pic">
+		</br></br></br></br>
+		<img src="https://avatars3.githubusercontent.com/u/32975946?s=460&v=4">
+		</div>
+		</div>
+		</div>
+		<div class="pageThree text-center" id="portfolio">
+		
+		</div>
+		<div class="pageFour text-center" id="contact">
+		<p>CONTACT ME</p>
+			<form id="contactMe" action="action.php" method="POST">
+				<label id="label" for="fname">First Name</label></br>
+				<input id="input" type="text" id="fname" name="firstname" placeholder="Your name.."></br></br>
+				<label id="label" for="lname">Last Name</label></br>
+				<input id="input" type="text" id="lname" name="lastname" placeholder="Your last name.."></br></br>
+				<label id="label" for="email">Email Address</label></br>
+				<input id="input" type="text" id="email" name="emailaddress" placeholder="Your email.."></br></br>
+				<label id="label" for="subject">Subject</label></br>
+				<textarea  id="subject" name="subject" placeholder="Write something.." style="height:200px; width:300px"></textarea></br>
+				<input type="submit" id="submit" value="Submit">
+			</form>
+		</div>
+	</div>
+	<body>
+	</body>
+</html>
+
