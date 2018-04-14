@@ -1,0 +1,54 @@
+#heading{
+	text-align: center;
+	color: white;
+	font-family: Gugi;
+	
+}
+body {
+	background-image: url("https://images.unsplash.com/photo-1498713301984-508015049dc1?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=b2f3689316e9e43037742480a7f2df2b&auto=format&fit=crop&w=1052&q=80");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#newQuote {
+	font-family: 'Cute Font', cursive;
+	background-color: rgba(255, 255, 255, 0.3);
+	font-size: 200%;
+	padding: 2px;
+	height: 50%;
+	width:10%;
+	color: white;
+}
+
+.button {
+	padding-top: 2%;
+	text-align: center;
+}
+
+#quote {
+	padding-top: 2%;
+}
+
+.wrap {
+	background-color: rgba(255,255,255, 0.6);
+	border: 3px solid rgba(255,255,255, 0.4);
+	box-shadow: 1px 1px 1px 2px white;
+	font-size: 120%;
+	font-weight: bold;
+	border-radius: 20px;
+	font-family: Khand;
+	
+	color: black;
+	width: 50%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	height: 100px;
+	padding-top: 20px;
+	margin-bottom: 20px;
+}
+
+.fa-twitter a:hover{
+	text-decoration: none;
+}
+
