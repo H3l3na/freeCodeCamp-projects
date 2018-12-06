@@ -1,0 +1,163 @@
+.nav-pills li {
+	display: inline-block;
+	padding-left: 15px;
+}
+
+.nav-pills{
+	font-family: Merienda;
+	font-size: 15px;
+	background-color: black;
+	padding-bottom: 7px;
+	padding-top: 7px;
+	padding-right: 40px;
+	position: fixed;
+	width: 100%;
+}
+
+.nav-pills a{
+	color: white;
+}
+
+.nav-pills a:hover{
+	text-decoration: none;
+	border-radius: 4%;
+	background-color: #ebebe0;
+	color: black;
+}
+
+body{
+	background-color: #a3d5d3;
+	background-color:  #85a3e0;
+}
+
+.pageOne{
+	background:url("https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e3b92161cef01773ab8e0f83d4da1126&auto=format&fit=crop&w=1350&q=80");
+	background-repeat: no-repeat;
+	width: auto;
+	padding-bottom: 10%;
+}
+
+.pageTwo {
+	padding: 0;
+	margin-top: 0px;
+	height: 700px;
+	background-repeat: no-repeat;
+	background:url("https://images.unsplash.com/photo-1493119508027-2b584f234d6c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=fb1e9a6cb78d210f74cba5298eca8ee7&auto=format&fit=crop&w=1400&q=80");
+	background-size: cover;
+}
+
+.pageThree {
+	height: 700px;
+	background-repeat: no-repeat;
+	background:url("https://images.unsplash.com/photo-1496674205429-924b32acd421?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=c79e9fb8930b09f0c2885309718bf351&auto=format&fit=crop&w=1350&q=80");
+	background-size: cover;
+}
+
+.pageFour {
+	height: 700px;
+	background-repeat: no-repeat;
+	background:url("https://images.unsplash.com/photo-1463171379579-3fdfb86d6285?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=b8cf6434809190e6fb358b571d324022&auto=format&fit=crop&w=1350&q=80");
+	background-size: cover;
+}
+
+.pageOne p {
+	height: 1000px;
+	
+}
+
+h1, h3 {
+	
+	margin-top: 0px;
+	text-align: center;
+	font-family: Mina;
+}
+
+.btn-default {
+	font-family: Merienda;
+	color: #4d4dff;
+	border-width: 1px;
+	border-radius:5px;
+	border-color: #737373;
+	background-color: #e6e6e6;
+	color: black;
+}
+
+.block{
+	background-color: white;
+	opacity: 0.4;
+	padding-top: 20px;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	height: 20%;
+	border-radius: 50%;
+}
+
+.block h1{
+	font-family: Merienda;
+	font-size: 50px;
+}
+
+.block h3{
+	font-size: 25px;
+	color: black;
+}
+
+.pageTwo h1 {
+	font-family: Merienda;
+}
+
+.pageTwo p {
+	font-family: Mina;
+	font-size: 20px;
+	font-weight: bold;
+	color: black;
+}
+
+.pageTwo {
+	padding-left: 30px;
+}
+
+.pageTwo img {
+	height: 210px;
+	border-radius: 50%;
+	box-shadow: 0px 1px 2px black;
+}
+
+#pic {
+	padding-left: 180px;
+}
+
+.pageFour p {
+	color: white;
+	font-family: Mina;
+	font-size:20px;
+	padding-top: 20px;
+}
+
+#label {
+	color:white;
+}
+
+.btnList{
+	padding-top: 5px;
+}
+
+.mySlides img {
+	display: center;
+}
+
+.mySlides {
+	height: 300px;
+}
+
+.w3-button {
+	display: inline;
+	margin-top: 20%;
+}
+
+
+
+
+
+
