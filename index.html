@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculator</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+	<script src="script/script.js"></script>
+</head>
+<body>
+				<div class="calc">
+					<form name="calculator">
+	<div class="wrapper">
+		<div class="caption"><p>ELECTRONIC CALCULATOR</p></div>
+		
+			<input id="display-zero" name="results"/>
+		<div class="keypad">
+			<div class="first-row">
+			<button type="button" value="ac" id="red" onclick="Reset()">AC</button>
+			<button type="button" value="ce" id="red" onclick="deleteLast()">CE</button>
+			<button type="button" class="operand" value="divide" id="func" onclick="divide()">÷</button>
+			<button type="button" class="operand" value="multiply" id="operand" onclick="multiply()">x</button>
+			</div>
+			<div class="second-row">
+			<button type="button" class="number" id="number" value="7" onclick="myFunction(7)">7</button>
+			<button type="button" class="number" id="number" value="8" onclick="myFunction(8)">8</button>
+			<button type="button" class="number" id="number" value="9" onclick="myFunction(9)">9</button>
+			<button type="button" class="operand" value="add" id="operand" onclick="add()">+</button>
+			</div>
+			<div class="third-row">
+			<button type="button" class="number" id="number" value="4" onclick="myFunction(4)">4</button>
+			<button type="button" class="number" id="number" value="5" onclick="myFunction(5)">5</button>
+			<button type="button" class="number" id="number" value="6" onclick="myFunction(6)">6</button>
+			<button type="button" class="operand" value="substract" id="func" onclick="substract()">-</button>
+			</div>
+			<div class="fourth-row">
+			<button type="button" class="number" id="number" value="1" onclick="myFunction(1)">1</button>
+			<button type="button" class="number" id="number" value="2" onclick="myFunction(2)">2</button>
+			<button type="button" class="number" id="number" value="3" onclick="myFunction(3)">3</button>
+			<button type="button" value="root" id="func" onclick="squareRoot()">√</button>
+			</div>
+			<div class="fifth-row">
+			<button type="button" id="number" value="0" id="zero" onclick="myFunction(0)">0</button>
+			<button type="button" value="." onclick="myFunction('.')">.</button>
+			<button type="button" id="equals" value="equals" onclick="calculate()">=</button>
+			</div>
+		</div>
+	</div>
+	</form>
+	</div>
+</body>
+</html>
